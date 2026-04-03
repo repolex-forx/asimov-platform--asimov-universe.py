@@ -25,6 +25,25 @@
         "blob/280f81f82f7ae0739f55ee66cd91d01651ae0245.nq.gz",
         "blob/17e1e83dfd1d4b6d8d20e2837126e3021dc780b4.nq.gz",
         "blob/6f83656972dcf4cdabab996bd49dde3986bc10be.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/bdd31aa351d0902bcdbe2571bc1df64021440f36.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/bdd31aa351d0902bcdbe2571bc1df64021440f36.nq.gz",
+      "repolex": "aggregate/repolex/bdd31aa351d0902bcdbe2571bc1df64021440f36.nq.gz",
+      "dep": "dep/bdd31aa351d0902bcdbe2571bc1df64021440f36.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "asimov-modules",
+          "ecosystem": "PYPI",
+          "version": "25.0.0.dev0",
+          "githubOrg": "asimov-modules",
+          "githubRepo": "asimov-modules.py",
+          "githubCommit": "71aa4dba31a6b87643aea9e6ce5cee477557a383",
+          "githubTag": "25.0.0.dev0",
+          "githubUrl": "https://github.com/asimov-modules/asimov-modules.py",
+          "source": "build_file:requirements.txt"
+        }
       ]
     }
   ],

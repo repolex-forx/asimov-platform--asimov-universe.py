@@ -36,6 +36,17 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 
 ```
 .
+├── aggregate
+│   ├── ast
+│   │   ├── bdd31aa351d0902bcdbe2571bc1df64021440f36
+│   │   │   └── chunk-001.nq.gz
+│   │   └── bdd31aa351d0902bcdbe2571bc1df64021440f36.nq.gz
+│   ├── lsp
+│   │   └── bdd31aa351d0902bcdbe2571bc1df64021440f36.nq.gz
+│   └── repolex
+│       ├── bdd31aa351d0902bcdbe2571bc1df64021440f36
+│       │   └── chunk-001.nq.gz
+│       └── bdd31aa351d0902bcdbe2571bc1df64021440f36.nq.gz
 ├── blob
 │   ├── 17e1e83dfd1d4b6d8d20e2837126e3021dc780b4.nq.gz
 │   ├── 19a31b4dae4983cccd2cf67abb335c2b819b239b.nq.gz
@@ -57,12 +68,14 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   └── branch.nq.gz
 ├── commit
 │   └── commit.nq.gz
+├── dep
+│   └── bdd31aa351d0902bcdbe2571bc1df64021440f36.nq.gz
 ├── filetree
 │   └── bdd31aa351d0902bcdbe2571bc1df64021440f36.nq.gz
 └── tag
     └── tag.nq.gz
 
-6 directories, 20 files
+13 directories, 26 files
 ```
 
 | Directory | What it contains |
@@ -82,4 +95,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [asimov-platform/asimov-universe.py](https://github.com/asimov-platform/asimov-universe.py)
 
 ---
-*Parsed on 2026-04-03 by [repolex](https://repolex.ai)*
+*Parsed on 2026-04-15 by [repolex](https://repolex.ai)*
